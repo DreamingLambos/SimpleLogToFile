@@ -144,18 +144,6 @@ namespace SimpleLogToFile.Utils
 			Log(source, type, message);
 		}
 
-		public static void Sent(string source, string message)
-		{
-			string type = "SENT";
-			Log(source, type, message);
-		}
-
-		public static void Received(string source, string message)
-		{
-			string type = "RECEIVED";
-			Log(source, type, message);
-		}
-
 		//Logs a message with a log of type ERROR
 		public static void Error(string source, string message)
 		{
